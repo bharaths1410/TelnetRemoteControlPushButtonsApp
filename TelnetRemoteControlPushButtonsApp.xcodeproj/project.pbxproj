@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F0416A1E4F8790001515B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041691E4F8790001515B9 /* main.m */; };
+		C2F0416D1E4F8790001515B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0416C1E4F8790001515B9 /* AppDelegate.m */; };
+		C2F041701E4F8790001515B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0416F1E4F8790001515B9 /* ViewController.m */; };
+		C2F041731E4F8790001515B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F041711E4F8790001515B9 /* Main.storyboard */; };
+		C2F041761E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2F041741E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld */; };
+		C2F041781E4F8790001515B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F041771E4F8790001515B9 /* Assets.xcassets */; };
+		C2F0417B1E4F8790001515B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F041791E4F8790001515B9 /* LaunchScreen.storyboard */; };
+		C2F041861E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041851E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m */; };
+		C2F041911E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041901E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F041821E4F8790001515B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F0415D1E4F8790001515B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F041641E4F8790001515B9;
+			remoteInfo = TelnetRemoteControlPushButtonsApp;
+		};
+		C2F0418D1E4F8790001515B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F0415D1E4F8790001515B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F041641E4F8790001515B9;
+			remoteInfo = TelnetRemoteControlPushButtonsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F041651E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetRemoteControlPushButtonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F041691E4F8790001515B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2F0416B1E4F8790001515B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2F0416C1E4F8790001515B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2F0416E1E4F8790001515B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2F0416F1E4F8790001515B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2F041721E4F8790001515B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F041751E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelnetRemoteControlPushButtonsApp.xcdatamodel; sourceTree = "<group>"; };
+		C2F041771E4F8790001515B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F0417A1E4F8790001515B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F0417C1E4F8790001515B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F041811E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelnetRemoteControlPushButtonsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F041851E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelnetRemoteControlPushButtonsAppTests.m; sourceTree = "<group>"; };
+		C2F041871E4F8790001515B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F0418C1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelnetRemoteControlPushButtonsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F041901E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelnetRemoteControlPushButtonsAppUITests.m; sourceTree = "<group>"; };
+		C2F041921E4F8790001515B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F041621E4F8790001515B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F0417E1E4F8790001515B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F041891E4F8790001515B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F0415C1E4F8790001515B9 = {
+			isa = PBXGroup;
+			children = (
+				C2F041671E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */,
+				C2F041841E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests */,
+				C2F0418F1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests */,
+				C2F041661E4F8790001515B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F041661E4F8790001515B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F041651E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.app */,
+				C2F041811E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.xctest */,
+				C2F0418C1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F041671E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2F0416B1E4F8790001515B9 /* AppDelegate.h */,
+				C2F0416C1E4F8790001515B9 /* AppDelegate.m */,
+				C2F0416E1E4F8790001515B9 /* ViewController.h */,
+				C2F0416F1E4F8790001515B9 /* ViewController.m */,
+				C2F041711E4F8790001515B9 /* Main.storyboard */,
+				C2F041771E4F8790001515B9 /* Assets.xcassets */,
+				C2F041791E4F8790001515B9 /* LaunchScreen.storyboard */,
+				C2F0417C1E4F8790001515B9 /* Info.plist */,
+				C2F041741E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld */,
+				C2F041681E4F8790001515B9 /* Supporting Files */,
+			);
+			path = TelnetRemoteControlPushButtonsApp;
+			sourceTree = "<group>";
+		};
+		C2F041681E4F8790001515B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F041691E4F8790001515B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2F041841E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F041851E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m */,
+				C2F041871E4F8790001515B9 /* Info.plist */,
+			);
+			path = TelnetRemoteControlPushButtonsAppTests;
+			sourceTree = "<group>";
+		};
+		C2F0418F1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F041901E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m */,
+				C2F041921E4F8790001515B9 /* Info.plist */,
+			);
+			path = TelnetRemoteControlPushButtonsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F041641E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F041951E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsApp" */;
+			buildPhases = (
+				C2F041611E4F8790001515B9 /* Sources */,
+				C2F041621E4F8790001515B9 /* Frameworks */,
+				C2F041631E4F8790001515B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelnetRemoteControlPushButtonsApp;
+			productName = TelnetRemoteControlPushButtonsApp;
+			productReference = C2F041651E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F041801E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F041981E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppTests" */;
+			buildPhases = (
+				C2F0417D1E4F8790001515B9 /* Sources */,
+				C2F0417E1E4F8790001515B9 /* Frameworks */,
+				C2F0417F1E4F8790001515B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F041831E4F8790001515B9 /* PBXTargetDependency */,
+			);
+			name = TelnetRemoteControlPushButtonsAppTests;
+			productName = TelnetRemoteControlPushButtonsAppTests;
+			productReference = C2F041811E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F0418B1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F0419B1E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppUITests" */;
+			buildPhases = (
+				C2F041881E4F8790001515B9 /* Sources */,
+				C2F041891E4F8790001515B9 /* Frameworks */,
+				C2F0418A1E4F8790001515B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F0418E1E4F8790001515B9 /* PBXTargetDependency */,
+			);
+			name = TelnetRemoteControlPushButtonsAppUITests;
+			productName = TelnetRemoteControlPushButtonsAppUITests;
+			productReference = C2F0418C1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F0415D1E4F8790001515B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bharath Sirangi";
+				TargetAttributes = {
+					C2F041641E4F8790001515B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C2F041801E4F8790001515B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F041641E4F8790001515B9;
+					};
+					C2F0418B1E4F8790001515B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F041641E4F8790001515B9;
+					};
+				};
+			};
+			buildConfigurationList = C2F041601E4F8790001515B9 /* Build configuration list for PBXProject "TelnetRemoteControlPushButtonsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F0415C1E4F8790001515B9;
+			productRefGroup = C2F041661E4F8790001515B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F041641E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */,
+				C2F041801E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests */,
+				C2F0418B1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F041631E4F8790001515B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F0417B1E4F8790001515B9 /* LaunchScreen.storyboard in Resources */,
+				C2F041781E4F8790001515B9 /* Assets.xcassets in Resources */,
+				C2F041731E4F8790001515B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F0417F1E4F8790001515B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F0418A1E4F8790001515B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F041611E4F8790001515B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F041701E4F8790001515B9 /* ViewController.m in Sources */,
+				C2F0416D1E4F8790001515B9 /* AppDelegate.m in Sources */,
+				C2F0416A1E4F8790001515B9 /* main.m in Sources */,
+				C2F041761E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F0417D1E4F8790001515B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F041861E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F041881E4F8790001515B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F041911E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F041831E4F8790001515B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F041641E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */;
+			targetProxy = C2F041821E4F8790001515B9 /* PBXContainerItemProxy */;
+		};
+		C2F0418E1E4F8790001515B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F041641E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */;
+			targetProxy = C2F0418D1E4F8790001515B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F041711E4F8790001515B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F041721E4F8790001515B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F041791E4F8790001515B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F0417A1E4F8790001515B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F041931E4F8790001515B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2F041941E4F8790001515B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F041961E4F8790001515B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2F041971E4F8790001515B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2F041991E4F8790001515B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelnetRemoteControlPushButtonsApp.app/TelnetRemoteControlPushButtonsApp";
+			};
+			name = Debug;
+		};
+		C2F0419A1E4F8790001515B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelnetRemoteControlPushButtonsApp.app/TelnetRemoteControlPushButtonsApp";
+			};
+			name = Release;
+		};
+		C2F0419C1E4F8790001515B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TelnetRemoteControlPushButtonsApp;
+			};
+			name = Debug;
+		};
+		C2F0419D1E4F8790001515B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TelnetRemoteControlPushButtonsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.TelnetRemoteControlPushButtonsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TelnetRemoteControlPushButtonsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F041601E4F8790001515B9 /* Build configuration list for PBXProject "TelnetRemoteControlPushButtonsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F041931E4F8790001515B9 /* Debug */,
+				C2F041941E4F8790001515B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F041951E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F041961E4F8790001515B9 /* Debug */,
+				C2F041971E4F8790001515B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F041981E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F041991E4F8790001515B9 /* Debug */,
+				C2F0419A1E4F8790001515B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F0419B1E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F0419C1E4F8790001515B9 /* Debug */,
+				C2F0419D1E4F8790001515B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2F041741E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2F041751E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodel */,
+			);
+			currentVersion = C2F041751E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodel */;
+			path = TelnetRemoteControlPushButtonsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2F0415D1E4F8790001515B9 /* Project object */;
+}
