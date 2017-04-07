@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddButtonViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, AddButtonProtocol>
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C200C7F71E52A71C00726D34 /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = C200C7F61E52A71C00726D34 /* Appliance.m */; };
+		C200C7FA1E52C72A00726D34 /* AddButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C200C7F91E52C72A00726D34 /* AddButtonViewController.m */; };
+		C200C8011E53A63B00726D34 /* CheckedCheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = C200C7FF1E53A63B00726D34 /* CheckedCheckbox.png */; };
+		C200C8021E53A63B00726D34 /* UncheckedCheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = C200C8001E53A63B00726D34 /* UncheckedCheckbox.png */; };
 		C2F0416A1E4F8790001515B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041691E4F8790001515B9 /* main.m */; };
 		C2F0416D1E4F8790001515B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0416C1E4F8790001515B9 /* AppDelegate.m */; };
 		C2F041701E4F8790001515B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0416F1E4F8790001515B9 /* ViewController.m */; };
@@ -16,6 +20,7 @@
 		C2F0417B1E4F8790001515B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F041791E4F8790001515B9 /* LaunchScreen.storyboard */; };
 		C2F041861E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041851E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests.m */; };
 		C2F041911E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041901E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m */; };
+		C2F041A31E4FE478001515B9 /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F041A21E4FE477001515B9 /* ButtonsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C200C7F51E52A71C00726D34 /* Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
+		C200C7F61E52A71C00726D34 /* Appliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
+		C200C7F81E52C72A00726D34 /* AddButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddButtonViewController.h; path = ../AddButtonViewController.h; sourceTree = "<group>"; };
+		C200C7F91E52C72A00726D34 /* AddButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddButtonViewController.m; path = ../AddButtonViewController.m; sourceTree = "<group>"; };
+		C200C7FF1E53A63B00726D34 /* CheckedCheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckedCheckbox.png; sourceTree = "<group>"; };
+		C200C8001E53A63B00726D34 /* UncheckedCheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UncheckedCheckbox.png; sourceTree = "<group>"; };
 		C2F041651E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetRemoteControlPushButtonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F041691E4F8790001515B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2F0416B1E4F8790001515B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +64,8 @@
 		C2F0418C1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelnetRemoteControlPushButtonsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F041901E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelnetRemoteControlPushButtonsAppUITests.m; sourceTree = "<group>"; };
 		C2F041921E4F8790001515B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F041A11E4FE477001515B9 /* ButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonsViewController.h; path = ../ButtonsViewController.h; sourceTree = "<group>"; };
+		C2F041A21E4FE477001515B9 /* ButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonsViewController.m; path = ../ButtonsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,8 @@
 		C2F0415C1E4F8790001515B9 = {
 			isa = PBXGroup;
 			children = (
+				C200C7FF1E53A63B00726D34 /* CheckedCheckbox.png */,
+				C200C8001E53A63B00726D34 /* UncheckedCheckbox.png */,
 				C2F041671E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp */,
 				C2F041841E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppTests */,
 				C2F0418F1E4F8790001515B9 /* TelnetRemoteControlPushButtonsAppUITests */,
@@ -107,6 +122,12 @@
 				C2F0416C1E4F8790001515B9 /* AppDelegate.m */,
 				C2F0416E1E4F8790001515B9 /* ViewController.h */,
 				C2F0416F1E4F8790001515B9 /* ViewController.m */,
+				C200C7F51E52A71C00726D34 /* Appliance.h */,
+				C200C7F61E52A71C00726D34 /* Appliance.m */,
+				C2F041A11E4FE477001515B9 /* ButtonsViewController.h */,
+				C2F041A21E4FE477001515B9 /* ButtonsViewController.m */,
+				C200C7F81E52C72A00726D34 /* AddButtonViewController.h */,
+				C200C7F91E52C72A00726D34 /* AddButtonViewController.m */,
 				C2F041711E4F8790001515B9 /* Main.storyboard */,
 				C2F041771E4F8790001515B9 /* Assets.xcassets */,
 				C2F041791E4F8790001515B9 /* LaunchScreen.storyboard */,
@@ -249,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C200C8011E53A63B00726D34 /* CheckedCheckbox.png in Resources */,
 				C2F0417B1E4F8790001515B9 /* LaunchScreen.storyboard in Resources */,
 				C2F041781E4F8790001515B9 /* Assets.xcassets in Resources */,
+				C200C8021E53A63B00726D34 /* UncheckedCheckbox.png in Resources */,
 				C2F041731E4F8790001515B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F041A31E4FE478001515B9 /* ButtonsViewController.m in Sources */,
+				C200C7F71E52A71C00726D34 /* Appliance.m in Sources */,
 				C2F041701E4F8790001515B9 /* ViewController.m in Sources */,
 				C2F0416D1E4F8790001515B9 /* AppDelegate.m in Sources */,
 				C2F0416A1E4F8790001515B9 /* main.m in Sources */,
+				C200C7FA1E52C72A00726D34 /* AddButtonViewController.m in Sources */,
 				C2F041761E4F8790001515B9 /* TelnetRemoteControlPushButtonsApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +535,7 @@
 				C2F041971E4F8790001515B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F041981E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +544,7 @@
 				C2F0419A1E4F8790001515B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F0419B1E4F8790001515B9 /* Build configuration list for PBXNativeTarget "TelnetRemoteControlPushButtonsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +553,7 @@
 				C2F0419D1E4F8790001515B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
